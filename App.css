@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 10px 20px;
+}
+
+.logo_container {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_desc {
+    color: white;
+    font-size: 0.75rem;
+}
+
+.form_input {
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    width: 45%;
+    padding: 10px;
+    /* margin: 2.5%; */
+}
+
+.generate_button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.form_container {
+    width: 100%;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.form {
+    width: 70%;
+    /* margin-right: auto;
+    margin-left: auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.input_form_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.memeContainer {
+    margin-top: 20px;
+}
